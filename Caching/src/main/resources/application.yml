@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: Caching
+  cache:
+    type: simple
+    
+server:
+  port: 8082
