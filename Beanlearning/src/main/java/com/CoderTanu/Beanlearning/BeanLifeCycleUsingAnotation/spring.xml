@@ -1,0 +1,29 @@
+
+             
+<beans
+
+
+
+
+>
+ 
+    <!-- activate the @PostConstruct and 
+@PreDestroy annotation -->
+ 
+    <bean class="org.springframework
+.context.annotation
+.CommonAnnotationBeanPostProcessor"/>
+ 
+    <!-- configure the bean -->
+    <bean class="com.CoderTanu.Beanlearning.BeanLifeCycleUsingAnotation.HelloWorld" name="hello" >
+		
+		   <property name="hello" value="world"></property>
+		
+		
+	</bean>
+ 
+
+     
+</beans>
+	
+
