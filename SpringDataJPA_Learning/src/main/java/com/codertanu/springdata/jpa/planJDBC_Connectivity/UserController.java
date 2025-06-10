@@ -1,9 +1,7 @@
-package com.codertanu.springdata.jpa.planJDBC_Connectivity.Controller;
+package com.codertanu.springdata.jpa.planJDBC_Connectivity;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import com.codertanu.springdata.jpa.planJDBC_Connectivity.UserDao;
 
 @Controller
 public class UserController {

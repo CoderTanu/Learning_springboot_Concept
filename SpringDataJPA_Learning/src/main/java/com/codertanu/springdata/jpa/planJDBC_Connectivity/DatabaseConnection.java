@@ -11,10 +11,12 @@ public class DatabaseConnection {
 		try {
 		  //H2 Driver loading
 			Class.forName("org.h2.Driver");
+			
+			//ESTBLISH Connection with DB
 			return DriverManager.getConnection("jdbc:h2:mem:userDB", "sa", "demo");
 		
 		}catch(ClassNotFoundException | SQLException e) {
-			
+			//handle exception
 		}
 		return null;
 	}

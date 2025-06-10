@@ -1,5 +1,15 @@
-package com.coderTanu.learn_spring_security.Service;
-
-public class UserDetailsServiceImpl implements UserDetailsServices {
-
-}
+//package com.coderTanu.learn_spring_security.Service;
+//
+//import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.UsernameNotFoundException;
+//
+//public class UserDetailsServiceImpl implements UserDetailsService {
+//
+//	@Override
+//	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//}
